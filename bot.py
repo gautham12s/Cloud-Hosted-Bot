@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-r = input("Enter Todays Day Order")
+
 
 
 
@@ -19,10 +19,6 @@ client = commands.Bot(command_prefix="!>")
 @client.event
 async def on_ready():
     print("Bot is ready")
-
-@client.command()
-async def dayorder(ctx):
-    await ctx.send(r)
 
 @client.command()
 async def dy1(ctx):
